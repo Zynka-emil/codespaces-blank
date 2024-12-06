@@ -1,0 +1,1804 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ids xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://standards.buildingsmart.org/IDS">
+  <info>
+    <title>Dynamic / Maintainable / Significant</title>
+    <description>Required Pset for Dynamic / Maintainable / Significant elements</description>
+    <author>collab@zynka.se</author>
+    <date>2024-12-06</date>
+  </info>
+  <specifications>
+  <specification name="Boiler" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCBOILER</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="Chiller" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCCHILLER</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="CooledBeam" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCCOOLEDBEAM</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="CoolingTower" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCCOOLINGTOWER</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="ElectricGenerator" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCELECTRICGENERATOR</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="Pump" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCPUMP</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="Fan" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCFAN</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="Filter" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCFILTER</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="FireSuppressionTerminal" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCFIRESUPPRESSIONTERMINAL</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="HeatExchanger" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCHEATEXCHANGER</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="Humidifier" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCHUMIDIFIER</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="Interceptor" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCINTERCEPTOR</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="Lamp" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCLAMP</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="LightFixture" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCLIGHTFIXTURE</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="Plant" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCPLANT</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="ProtectiveDevice" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCPROTECTIVEDEVICE</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="ProtectiveDeviceTrippingUnit" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCPROTECTIVEDEVICETRIPPINGUNIT</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="SolarDevice" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCSOLARDEVICE</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="TransportElement" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCTRANSPORTELEMENT</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="Vehicle" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCVEHICLE</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="WasteTerminal" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCWASTETERMINAL</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="Window" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCWINDOW</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="Actuator" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCACTUATOR</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="AirTerminal" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCAIRTERMINAL</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="Alarm" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCALARM</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="AudioVisualAppliance" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCAUDIOVISUALAPPLIANCE</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="CaissonFoundation" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCCAISSONFOUNDATION</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="CommunicationsAppliance" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCCOMMUNICATIONSAPPLIANCE</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="Compressor" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCCOMPRESSOR</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="Controller" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCCONTROLLER</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="ConveyorSegment" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCCONVEYORSEGMENT</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="Damper" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCDAMPER</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="DistributionBoard" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCDISTRIBUTIONBOARD</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="DistributionChamberElement" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCDISTRIBUTIONCHAMBERELEMENT</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="Door" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCDOOR</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="ElectricAppliance" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCELECTRICAPPLIANCE</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="ElectricDistributionBoard" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCELECTRICDISTRIBUTIONBOARD</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="ElectricFlowStorageDevice" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCELECTRICFLOWSTORAGEDEVICE</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="ElectricFlowTreatmentDevice" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCELECTRICFLOWTREATMENTDEVICE</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="ElectricTimeControl" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IFCELECTRICTIMECONTROL</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="FlowInstrument" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IfcFlowInstrument</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="FlowMeter" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IfcFlowMeter</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="MedicalDevice" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IfcMedicalDevice</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="MobileTelecommunicationsAppliance" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IfcMobileTelecommunicationsAppliance</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="MotorConnection" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IfcMotorConnection</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="NavigationElement" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IfcNavigationElement</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+</specifications>
+
+  <specification name="Outlet" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IfcOutlet</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="SanitaryTerminal" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IfcSanitaryTerminal</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="Sensor" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IfcSensor</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="Signal" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IfcSignal</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="SpaceHeater" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IfcSpaceHeater</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="SwitchingDevice" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IfcSwitchingDevice</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="Tank" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IfcTank</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="Transformer" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IfcTransformer</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="UnitaryControlElement" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IfcUnitaryControlElement</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+  <specification name="Valve" description="required Psets for Dynamic / Maintainable / Significant" ifcVersion="IFC4">
+    <applicability minOccurs="0">
+      <entity>
+        <name>
+          <simpleValue>IfcValve</simpleValue>
+        </name>
+      </entity>
+    </applicability>
+    <requirements>
+      <property>
+        <propertySet>
+          <simpleValue>Classification parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>COBie parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>Wildcard parameters</simpleValue>
+        </propertySet>
+      </property>
+      <property>
+        <propertySet>
+          <simpleValue>SIBS parameters</simpleValue>
+        </propertySet>
+      </property>
+    </requirements>
+  </specification>
+
+</specifications>
+</ids>
